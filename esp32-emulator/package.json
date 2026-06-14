@@ -1,0 +1,17 @@
+{
+  "name": "smart-souvenir-esp32-emulator",
+  "version": "1.0.0",
+  "description": "Simulasi perangkat keras ESP32 RFID Reader untuk Smart Souvenir",
+  "main": "emulator.js",
+  "scripts": {
+    "start": "node emulator.js"
+  },
+  "keywords": ["esp32", "rfid", "emulator", "iot", "simulation"],
+  "author": "Smart Souvenir Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  }
+}
